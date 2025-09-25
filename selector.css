@@ -1,0 +1,14 @@
+.first{
+ background-color:green;
+ font-size:20px;
+ color:white;
+ }
+ #second{
+ background-color:yellow;
+ font-size:20px;
+ color:red;
+ }
+ p{
+ background-color:lightgrey;
+ font-size:20px;
+ color:purple;

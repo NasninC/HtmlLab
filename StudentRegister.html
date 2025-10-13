@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>Student registration form</title>
+<style>
+.qual{
+width:100%;
+border-collapse:collapse;
+border:color:white;
+}
+1452
+.qual td,.qual th{
+border:1px solid;
+padding:4px;
+font-size:13px;
+text-align:left;
+}
+.buttons{
+text-align:center;
+margin-top:8px;
+}
+</style>
+</head>
+<body>
+<h2>STUDENT REGISTRATION FORM</h2>
+<form>
+<table border="1" cellpadding="5" cellspacing="0">
+<tr>
+<td>FIRST NAME:</td>
+<td><input type="text" name="firstname"></td>
+</tr>
+<tr>
+<td>LAST NAME:</td>
+<td><input type="text" name="lastname"></td>
+</tr>
+<td>EMAIL ID:</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td>DOB:</td>
+<td><input type="date" name="date"></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER:</td>
+<td><input type="text" name="number"></td>
+</tr>
+<tr>
+<td>GENDER:</td>
+<td>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td>
+</tr>
+<tr>
+<td>ADDRESS:</td>
+<td><textarea name="address" rows="3" cols="30"></textarea></td>
+</tr>
+<tr>
+<td>CITY:</td>
+<td><input type="text" name="city" maxlength="30" placeholder="City (max 30 characters)"></td>
+</tr>
+<tr>
+<td>PIN CODE:</td>
+<td><input type="text" name="pin code" maxlength="6" placeholder="6 digit number"></td>
+</tr>
+<tr>
+<td>STATE:</td>
+<td><input type="text" name="state"></td>
+</tr>
+<tr>
+<td>COUNTRY:</td>
+<td><input type="text" name="country"></td>
+</tr>
+<tr>
+<td>HOBBIES:</td>
+<td>
+<input type="checkbox" name="hobbie" value="Dancing">Dancing
+<input type="checkbox" name="hobbie" value="Singing">Singing
+<input type="checkbox" name="hobbie" value="Drawing">Drawing
+<input type="checkbox" name="hobbie" value="Reading">Reading
+<input type="checkbox" name="hobbie" value="Other">Other
+</td>
+</tr>
+<tr>
+<td>Qualification</td>
+<td>
+<table class="qual">
+<tr>
+<th>SL NO</th>
+<th>EXAMINATION</th>
+<th>BOARD</th>
+<th>PERCENTAGE  </th>
+<th>YEAR</th>
+</tr>
+<tr>
+<td>1</td>
+<td>class x</td>
+<td><input type="text" name="board1" style="width:98%"></td>
+<td><input type="number" name="percent1" step="0.01" min="0" max="100"  style="width:98%"></td>
+<td><input type="number" name="year1" min="1900" max="2100"  style="width:98%"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>class xii</td>
+<td><input type="text" name="board2"  style="width:98%"></td>
+<td><input type="number" name="percent2" step="0.01" min="0" max="100"  style="width:98%"></td>
+<td><input type="number" name="year2" min="1900" max="2100"  style="width:98%"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>DEGREE</td>
+<td><input type="text" name="board3"  style="width:98%"></td>
+<td><input type="number" name="percent3" step="0.01" min="0" max="100"  style="width:98%"></td>
+<td><input type="number" name="year3" min="1900" max="2100"  style="width:98%"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>MASTERS</td>
+<td><input type="text" name="board4"  style="width:98%"></td>
+<td><input type="number" name="percent4" step="0.01" min="0" max="100"  style="width:98%"></td>
+<td><input type="number" name="year4" min="1900" max="2100"  style="width:98%"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>(10 characters)</td>
+<td>(upto 2 decimals)</td>
+</tr>
+</table>
+<tr>
+<td>COURSES APPLIED FOR:</td>
+<td>
+<input type="radio" name="course" value="mca">MCA
+<input type="radio" name="course" value="Btech">B TECH
+<input type="radio" name="course" value="msc">MSC
+</td>
+</tr>
+<tr>
+<td>PASSWORD:</td>
+<td><input type="password" name="password" maxlength="30" placeholder="(max 30 characters)"></td>
+</tr>
+<tr>
+<td>DATE OF TC:</td>
+<td><input type="date" name="date"></td>
+</td>
+<tr>
+<td class=buttons" colspan="2" align="center">
+<input type="submit" value="SUBMIT" >
+<input type="reset" value="RESET">
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+

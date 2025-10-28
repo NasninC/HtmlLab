@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Change Background color</title>
+</head>
+<body>
+<button id="button">Change Background color</button>
+<script>
+let count = 0;
+document.getElementById("button").addEventListener("click",function () {
+count++;
+if(count==1){
+document.body.style.backgroundColor = "red";
+}else if(count==2){
+document.body.style.backgroundColor = "green";
+}
+});
+</script>
+</body>
+</html>
